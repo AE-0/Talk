@@ -1,4 +1,5 @@
 class Main {
+    @SuppressWarnings("unchecked")
     public static <T extends Number & Comparable<T>> T abs(T arg) {
         return (arg.doubleValue() > 0) ? arg : (T) Double.valueOf(-arg.doubleValue());
     }
