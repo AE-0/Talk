@@ -1,7 +1,7 @@
 import std.stdio;
 
-T abs(T)(T x) {
-  return x > 0 ? x : -x;
+T abs(T)(T arg) {
+  return arg > 0 ? arg : -arg;
 }
 
 void main() {
